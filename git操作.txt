@@ -1,20 +1,20 @@
-安装
+1、安装
 下载 git OSX 版
 下载 git Windows 版
 下载 git Linux 版
 
-创建新仓库
+2、创建新仓库
 创建新文件夹，打开，然后执行
 git init
 以创建新的 git 仓库。
 
-检出仓库
+3、检出仓库
 执行如下命令以创建一个本地仓库的克隆版本：
 git clone /path/to/repository
 如果是远端服务器上的仓库，你的命令会是这个样子：
 git clone username@host:/path/to/repository
 
-添加与提交
+4、添加与提交
 你可以计划改动（把它们添加到缓存区），使用如下命令：
 git add <filename>
 git add *
@@ -22,11 +22,11 @@ git add *
 git commit -m "代码提交信息"
 现在，你的改动已经提交到了 HEAD，但是还没到你的远端仓库。
 
-推送改动
+5、推送改动
 你的改动现在已经在本地仓库的 HEAD 中了。执行如下命令以将这些改动提交到远端仓库：
 git push origin master
 可以把 master 换成你想要推送的任何分支。
 
-如果你还没有克隆现有仓库，并欲将你的仓库连接到某个远程服务器，你可以使用如下命令添加：
+6、如果你还没有克隆现有仓库，并欲将你的仓库连接到某个远程服务器，你可以使用如下命令添加：
 git remote add origin <server>
 如此你就能够将你的改动推送到所添加的服务器上去了。
