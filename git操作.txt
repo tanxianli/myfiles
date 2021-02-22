@@ -13,6 +13,8 @@ git init
 git clone /path/to/repository
 如果是远端服务器上的仓库，你的命令会是这个样子：
 git clone username@host:/path/to/repository
+克隆指定分支：
+git clone -b <分支名> <仓库地址>
 
 4、添加与提交
 你可以计划改动（把它们添加到缓存区），使用如下命令：
