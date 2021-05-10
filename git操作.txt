@@ -1,5 +1,5 @@
 1、安装
-下载 git OSX 版1
+下载 git OSX 版
 下载 git Windows 版
 下载 git Linux 版
 
